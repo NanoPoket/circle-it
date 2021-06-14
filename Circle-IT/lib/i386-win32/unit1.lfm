@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 540
+  Height = 700
+  Top = 120
+  Width = 650
+  BorderStyle = bsDialog
+  Caption = 'Circle-it'
+  ClientHeight = 700
+  ClientWidth = 650
+  Color = clWhite
+  LCLVersion = '2.0.12.0'
+  Visible = True
+  object Button1: TButton
+    Left = 256
+    Height = 35
+    Top = 510
+    Width = 150
+    Caption = 'Выход'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 35
+    Top = 430
+    Width = 150
+    Caption = 'Настройки'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 256
+    Height = 35
+    Top = 350
+    Width = 150
+    Caption = 'Играть'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Shape1: TShape
+    Left = 230
+    Height = 70
+    Top = 100
+    Width = 200
+    Shape = stEllipse
+  end
+  object Label1: TLabel
+    Left = 275
+    Height = 35
+    Top = 112
+    Width = 111
+    Caption = 'Circle-IT'
+    Color = clBtnHighlight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end
